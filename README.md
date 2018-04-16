@@ -3,7 +3,9 @@
 
 
 
-Repurposed [hacker1db's dotfiles] (https://github.com/hacker1db/Dotfiles)
+Repurposed [hacker1db's dotfiles](https://github.com/hacker1db/Dotfiles)
+    
+    
     git clone https://github.com/atriyan/Dotfiles.git ~/.dotfiles
 
     cd ~/.dotfiles
