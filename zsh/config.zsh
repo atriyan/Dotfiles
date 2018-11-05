@@ -28,6 +28,7 @@ bindkey '^[[5D' beginning-of-line
 bindkey '^[[5C' end-of-line
 bindkey '^[[3~' delete-char
 bindkey '^?' backward-delete-char
-
+bindkey -v
+bindkey -M viins "jk" vi-cmd-mode
 fpath=($ZSH/functions $fpath)
 autoload -U $ZSH/functions/*(:t)
