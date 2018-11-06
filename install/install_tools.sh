@@ -14,14 +14,6 @@ brew install tree
 brew install wget 
 brew install fzf # Fuzzy file finder
 brew install lnav # for viewing log files in terminal 
-echo "Installing tools for Chef dev"
-# tools for chef dev
-brew install packer
-brew cask install vagrant
-vagrant plugin install vagrant-cachier
-brew cask install chefdk
-brew install docker
-
 # terminals cause why not!
 brew install hub
 brew install reattach-to-user-namespace
@@ -42,20 +34,7 @@ echo "Installing neovim..."
 brew install neovim
 
 echo "Installing desktop application..."
-
 brew cask install iterm2
-brew cask install google-chrome
 brew cask install slack
-brew cask install vmware-fusion
-brew cask install visual-studio-code
-brew cask install iterm2
-brew cask install microsoft-office
-brew cask install 1password
-brew cask install owasp-zap
-brew cask install soapui
 brew cask install vlc
-brew cask install alfred
-brew cask install foxitreader
-brew cask install dash
-
 exit 0
