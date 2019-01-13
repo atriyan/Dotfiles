@@ -370,4 +370,5 @@ let g:syntastic_python_checkers = ['pylint']
 let g:netrw_liststyle = 3
 let g:netrw_browse_split = 4
 let g:netrw_winsize = 20
+set undofile
 set undodir=~/.config/nvim/undodir
