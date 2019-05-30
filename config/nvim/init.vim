@@ -372,3 +372,6 @@ let g:netrw_browse_split = 4
 let g:netrw_winsize = 20
 set undofile
 set undodir=~/.config/nvim/undodir
+" Move visual selection
+vnoremap J :m '>+1<CR>gv=gv
+vnoremap K :m '<-2<CR>gv=gv
