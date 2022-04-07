@@ -34,7 +34,7 @@ echo "Installing neovim..."
 brew install neovim
 
 echo "Installing desktop application..."
-brew cask install iterm2
-brew cask install slack
-brew cask install vlc
+brew  install iterm2 --cask
+brew  install slack --cask
+brew  install vlc --cask
 exit 0

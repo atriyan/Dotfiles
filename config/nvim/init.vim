@@ -349,7 +349,7 @@ let g:SuperTabCrMapping = 0
 " Testing markdown preview
 let vim_markdown_preview_hotkey='<C-m>'
 let vim_markdown_preview_temp_file=1
-let vim_markdown_preview_browser='Google Chrome'
+let vim_markdown_preview_browser='Safari'
 
 "vim tests plugin config
 
@@ -375,3 +375,5 @@ set undodir=~/.config/nvim/undodir
 " Move visual selection
 vnoremap J :m '>+1<CR>gv=gv
 vnoremap K :m '<-2<CR>gv=gv
+
+let g:snipMate = { 'snippet_version' : 1 }
